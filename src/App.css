@@ -1,0 +1,10 @@
+.nav {
+  background-color: rgb(39, 39, 39);
+  width: 100%;
+  padding: 20px;
+}
+.flex-sm {
+  color: rgb(102, 237, 241);
+  font-family: monospace;
+  font-size: 25px;
+}
