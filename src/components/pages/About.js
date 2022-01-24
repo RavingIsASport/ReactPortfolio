@@ -1,5 +1,6 @@
 import React from "react";
 import picture from "../assets/images/IMG_0691.JPG";
+import resume from "../assets/Gustavo_Resume.pdf";
 
 const style = {
   width: {
@@ -36,6 +37,16 @@ export default function About() {
         HTML. I currently work in the food industry but I've decided to take a
         different career path, and jump into the programming industry.
       </p>
+      <button type="button" className="btn btn-primary btn-lg">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          className="nav-link active text-reset"
+          href={resume}
+        >
+          Resume
+        </a>
+      </button>
     </div>
   );
 }
