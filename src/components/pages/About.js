@@ -2,51 +2,39 @@ import React from "react";
 import picture from "../assets/images/IMG_0691.JPG";
 import resume from "../assets/Gustavo_Resume.pdf";
 
-const style = {
-  width: {
-    width: "20%",
-  },
-  fontH: {
-    color: "#F9ECEB ",
-    fontFamily: "monospace",
-  },
-  fontP: {
-    fontSize: "23px",
-    color: "#F9ECEB ",
-    fontFamily: "monospace",
-    fontWeight: "bold",
-    background: "rgba(14, 52, 61 ,.8)",
-  },
-};
 export default function About() {
   return (
-    <div className="container text-center">
-      <img
-        src={picture}
-        className="img-thumbnail "
-        alt="Gustavo Garcia"
-        style={style.width}
-      ></img>
-      <h1 className="display-2" style={style.fontH}>
-        About Me
-      </h1>
-      <p style={style.fontP}>
-        Aspiring web developer. Currently enrolled in the SMU Coding Bootcamp. I
-        love playing video games and watching sports, mostly soccer. Some of my
-        coding skills are Javascript, NodeJS, ReactJS, MongoDB, and Good ol'
-        HTML. I currently work in the food industry but I've decided to take a
-        different career path, and jump into the programming industry.
-      </p>
-      <button type="button" className="btn btn-primary btn-lg">
-        <a
-          target="_blank"
-          rel="noreferrer"
-          className="nav-link active text-reset"
-          href={resume}
+    <div className="">
+      <div className="flex justify-center">
+        <img
+          src={picture}
+          className="max-w-xs rounded-full p-4"
+          alt="Gustavo Garcia"
+        ></img>
+      </div>
+
+      <div className=" w-2/4 mx-auto bg-slate-100/60 rounded-xl mt-8 px-8 py-4 tracking-tight text-center">
+        <p className="text-lg font-mono">
+          Aspiring web developer. Currently enrolled in the SMU Coding Bootcamp.
+          I love playing video games and watching sports, mostly soccer. Some of
+          my coding skills are Javascript, NodeJS, ReactJS, MongoDB, and Good
+          ol' HTML. I currently work in the food industry but I've decided to
+          take a different career path, and jump into the programming industry.
+        </p>
+        <button
+          type="button"
+          className="m-3 p-2 bg-cyan-600 hover:bg-cyan-300 hover:text-slate-700 rounded-lg text-slate-200"
         >
-          Resume
-        </a>
-      </button>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            className="nav-link active text-reset text-lg font-medium"
+            href={resume}
+          >
+            Resume
+          </a>
+        </button>
+      </div>
     </div>
   );
 }
