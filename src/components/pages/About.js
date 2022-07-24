@@ -1,7 +1,6 @@
 import React from "react";
-import picture from "../assets/images/IMG_0691.JPG";
-import resume from "../assets/Gustavo_Resume.pdf";
-
+import picture from "../assets/images/gustavo.jpeg";
+import resume from "../assets/Gustavos_Resume.pdf";
 export default function About() {
   return (
     <div className="">
