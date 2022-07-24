@@ -9,14 +9,14 @@ export default class Contact extends Component {
         <div className="flex justify-center">
           <h1 className="text-xl my-5">You can find me at:</h1>
         </div>
-        <div className="flex justify-center">
+        <div className="flex justify-center gap-10">
           <div className="max-w-auto">
             <a
               href={"https://github.com/RavingIsASport"}
               target="_blank"
               rel="noreferrer"
             >
-              <img src={git} className="img" alt="Github" />
+              <i class="fa-brands fa-github-square text-9xl"></i>
             </a>
           </div>
 
@@ -26,7 +26,7 @@ export default class Contact extends Component {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={linked} className="max-w-xs" alt="LinkedIn" />
+              <i className="fa-brands fa-linkedin text-9xl"></i>
             </a>
           </div>
           <div>
@@ -35,13 +35,7 @@ export default class Contact extends Component {
               target="_blank"
               rel="noreferrer"
             >
-              <img
-                src={
-                  "https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg"
-                }
-                className="img"
-                alt="Instagram"
-              />
+              <i className="fa-brands fa-instagram text-9xl"></i>
             </a>
           </div>
         </div>

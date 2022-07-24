@@ -8,7 +8,7 @@ const style = {
 export default class Footer extends Component {
   render() {
     return (
-      <footer className="mt-auto text-center">
+      <footer className="w-full mt-auto flex justify-center ">
         <span style={style.font}>Made By Gustavo Garcia 😎 </span>
       </footer>
     );
