@@ -12,7 +12,7 @@ export default function About() {
         ></img>
       </div>
 
-      <div className=" w-2/4 mx-auto bg-slate-100/60 rounded-xl mt-8 px-8 py-4 tracking-tight text-center">
+      <div className=" md:w-2/4 md:mx-auto bg-slate-100/60 rounded-xl mt-8 px-8 py-4 tracking-tight text-center">
         <p className="text-lg font-mono">
           Aspiring web developer. Currently enrolled in the SMU Coding Bootcamp.
           I love playing video games and watching sports, mostly soccer. Some of

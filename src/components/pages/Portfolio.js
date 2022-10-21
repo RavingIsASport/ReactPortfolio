@@ -9,12 +9,12 @@ export default class Portfolio extends Component {
     return (
       <div>
         {/* header */}
-        <div className="flex justify-center my-8">
+        <div className="text-center m-3">
           <h1 className="text-5xl font-mono">My Work</h1>
         </div>
         {/* columns */}
         {/* project 1 */}
-        <div className="grid grid-cols-2">
+        <div className="grid grid-cols-2 gap-2">
           <div className="flex justify-center my-5">
             <div className="rounded-lg shadow-lg bg-white/70 max-w-xl">
               <img className="rounded-t-lg" src={mad} alt="Mad Quick Stats" />
