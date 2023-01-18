@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-import git from "../assets/images/GitHub-Mark-Light-64px.png";
-import linked from "../assets/images/LI-In-Bug.png";
 
 export default class Contact extends Component {
   render() {
